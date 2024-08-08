@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cairnsville Veterinary Care</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="appointment.html">Book an Appointment</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you! Whether you have a question about our services, need assistance, or want to provide feedback, feel free to reach out to us using the contact details or form below.</p>
+            
+            
+            <h2>Trading Hours</h2>
+            <p>Monday – Friday:    8:30am - 6:30 PM</p>
+            <p>Saturday – Sunday: 8:30am-1pm</p>
+            
+            
+            
+            
+            <div class="contact_details">
+                <div>
+                    <h3>Contact Information</h3>
+                    <p>
+                        <strong>Address:</strong> 195 Fantail Street, Cairnville, Queensland <br>
+                        <strong>Phone:</strong> 07 1327 5599 <br>
+                        <strong>Email:</strong> cvc@cairnsvillevetcare.com.au
+                    </p>
+                </div>
+
+                <div class="form">
+                    <h3>Contact Form</h3>
+                    <form action="submit_contact.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required><br>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea><br>
+                        
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cairnsville Veterinary Care. All rights reserved.</p>
+    </footer>
+</body>
+</html>
